@@ -1,5 +1,6 @@
 import sys
 import time
+from datetime import datetime
 from megabox_open_push_function import *
 from megabox_open_push_global_variable import *
 
@@ -20,10 +21,13 @@ def dolby_cinema_main(url, cookies, headers, json_data, target_name, message_que
             # 새 응답과 저장된 이전 응답이 다르다면
             if set1 != set2:
                 diff = set2 - set1
+                # 지난 날짜 필터링
+                today = datetime.now().strftime('%Y%m%d')
+                filtered_diff = {date for date in diff if date >= today}
                 # 추가된 변경사항이 있다면
-                if len(diff) != 0:
-                    added_result = ", ".join(diff)
-                    save_log_info(f'{target_name} added item : {diff}, set1 : {set1}, set2 : {set2}, response1 : {response1}, response2 : {response2}')
+                if len(filtered_diff) != 0:
+                    added_result = ", ".join(filtered_diff)
+                    save_log_info(f'{target_name} added item : {filtered_diff}, set1 : {set1}, set2 : {set2}, response1 : {response1}, response2 : {response2}')
                     # 추가된 변경사항 푸시알림 보내기
                     try:
                         message_queue.put([target_name, "**예매 오픈 알림** : " + str(added_result)])
