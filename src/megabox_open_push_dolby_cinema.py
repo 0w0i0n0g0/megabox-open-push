@@ -43,5 +43,7 @@ def dolby_cinema_main(url, cookies, headers, json_data, target_name, message_que
     # 오류 발생 시
     except Exception as e:
         save_log_error(f'{target_name} error : {e}')
+        # 1분 대기 후 다시 실행
+        time.sleep(60)
         # 다시 실행
         os.execl(sys.executable, sys.executable, *sys.argv)
