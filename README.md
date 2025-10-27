@@ -15,9 +15,7 @@ image_by_<a href="https://kr.freepik.com/free-photo/3d-render-notification-bell-
 <br>
 <br>
 
-### 📢 알림
-
-현재 베타 서비스로 운영 중으로, 잘못된 알림 전송이 발생할 수 있습니다.
+### 📢 안내
 
 당분간 돌비시네마 예매 오픈 알리미만 운영될 예정입니다.
 
@@ -39,9 +37,18 @@ image_by_<a href="https://kr.freepik.com/free-photo/3d-render-notification-bell-
 
 ### 🔎 현재 동작하고 있는 알리미는?
 
-> (2025/03/26 기준)
+> (2025년 11월 기준)
 
-- 코엑스 돌비시네마 예매 오픈 알리미
+- 코엑스 돌비시네마
+- 남양주현대아울렛 스페이스원 돌비시네마
+
+<br>
+
+### 📄 최근 업데이트 내역
+
+**남양주현대아울렛 스페이스원 돌비시네마가 추가되었습니다!**
+
+수정으로 인한 오류가 있을 수 있으니, 양해 부탁드립니다.
 
 <br>
 <br>
@@ -56,15 +63,17 @@ image_by_<a href="https://kr.freepik.com/free-photo/3d-render-notification-bell-
 
 ### 아래 초대 링크를 클릭하여 메가박스 예매 오픈 알리미 서버에 접속하세요.
 
-https://discord.gg/CYfu2f2gJT
+https://snapp.wzero.dev/megabox
+
+> 초대 링크가 동작하지 않는다면 [issues](https://github.com/0w0i0n0g0/megabox-open-push/issues)에 문의를 남겨주세요.
+>
+> 최대한 빠르게 업데이트하도록 하겠습니다.
 
 <br>
 
-### 알림이 켜져 있는지 꼭 확인해주세요.
+### 꼭 확인해주세요.
 
-Discord 앱 내의 설정에서 메가박스 예매 오픈 알리미 서버의 모든 메시지에 대해 알림이 켜져있는지 꼭 확인해주세요.
-
-알림을 원하지 않는 채널에 대해서만 알림을 꺼주시면 됩니다.
+`전체공지` 채널과 `자주묻는질문` 채널을 꼭 정독한 후 이용해주세요.
 
 <br>
 <br>
