@@ -13,6 +13,7 @@ discord_channel_id_dictionary = {
     "LOG": 1309139853631557632,
     "ANNOUNCEMENT": 1309141746978131988,
     "COEX-DOLLBY": 1311285423208792075,
+    "N-DOLLBY": 1425116391404732607
 }
 
 
@@ -54,7 +55,7 @@ dolby_cinema_json_data = [
     {
         # 코엑스 돌비시네마
         'arrMovieNo': '',
-        'playDe': '20240709',
+        'playDe': '20251008',
         'brchNoListCnt': 1,
         'brchNo1': '1351',
         'brchNo2': '',
@@ -75,8 +76,41 @@ dolby_cinema_json_data = [
         'movieNo3': '',
         'sellChnlCd': '',
     },
+    {
+        # 남양주현대아울렛스페이스원 돌비시네마
+        "arrMovieNo": "",
+        "playDe": "20251008",
+        "brchNoListCnt": 1,
+        "brchNo1": "0019",
+        "brchNo2": "",
+        "brchNo3": "",
+        "brchNo4": "",
+        "brchNo5": "",
+        "areaCd1": "DBC",
+        "areaCd2": "",
+        "areaCd3": "",
+        "areaCd4": "",
+        "areaCd5": "",
+        "spclbYn1": "Y",
+        "spclbYn2": "",
+        "spclbYn3": "",
+        "spclbYn4": "",
+        "spclbYn5": "",
+        "theabKindCd1": "DBC",
+        "theabKindCd2": "",
+        "theabKindCd3": "",
+        "theabKindCd4": "",
+        "theabKindCd5": "",
+        "brchAll": "",
+        "brchSpcl": "DBC",
+        "movieNo1": "",
+        "movieNo2": "",
+        "movieNo3": "",
+        "sellChnlCd": ""
+    }
 ]
 
 dolby_cinema_target_name = [
     "COEX-DOLLBY",
+    "N-DOLLBY"
 ]
